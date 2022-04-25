@@ -104,3 +104,18 @@ second-practice {
     color: black;
     background-color: yellow;
 }
+
+.expanded {
+    height: 800px;
+    width: auto;
+}
+
+.second.picture {
+    width: 800px;
+    height: 450px;
+}
+
+.first.picture {
+    width: 200px;
+    height: 600px;
+}
