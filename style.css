@@ -47,7 +47,7 @@ second-practice {
     text-align: start;
 }
 
-.number-one {
+.number-one, .three {
     background-color: palevioletred;
     font-weight: 500;
     color: black;
@@ -71,18 +71,7 @@ second-practice {
 }
 
 .three {
-    background-color: palevioletred;
-    font-weight: 500;
-    color: black;
-    text-align: start;
     font-size: 28px;
-    font-family: 'Lucida Sans',
-    'Lucida Sans Regular',
-    'Lucida Grande',
-    'Lucida Sans Unicode',
-    Geneva,
-    Verdana,
-    sans-serif;
 }
 
 #another-id {
@@ -94,3 +83,24 @@ second-practice {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.buttons {
+    background-color: gold;
+    text-align: start;
+}
+
+.click, .unclick {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.unclick {
+    color: black;
+    background-color: yellow;
+}
