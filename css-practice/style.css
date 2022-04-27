@@ -41,12 +41,9 @@ div.text {
     font-size: 22px;
 }
 
-div.text.child {
-    color: red;
-    font-size: 15px;
-}
-
+div.text.child,
 .para.small-para {
+    color: red;
     font-size: 14px;
 }
 
