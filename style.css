@@ -27,6 +27,17 @@ p {
     background-color: green;
     font-size: 18px;
 }
+p:hover {
+    background-color: palevioletred;
+    text-align: end;
+    color: black;
+    font-size: 22px;
+}
+
+p::selection {
+    background-color: blue;
+    color: yellow;
+}
 
 img {
     border: 5px solid red;
@@ -39,6 +50,10 @@ body {
 button {
     background-color: orange;
     font-size: 18px;
+}
+
+button:hover {
+    background-color: red;
 }
 
 second-practice {
@@ -118,4 +133,8 @@ second-practice {
 .first.picture {
     width: 200px;
     height: 600px;
+}
+
+* {
+    border: 2px solid blue;
 }
